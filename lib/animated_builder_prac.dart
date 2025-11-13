@@ -32,6 +32,7 @@ class _AnimatedBuilderPracticeState extends State<AnimatedBuilderPractice>
     )..repeat(); // or we can write _controller.repeat();
 
     _animation = Tween<double>(begin: 0.0, end: pi * 2).animate(_controller);
+    // pi * 2 = 360 degrees
   }
 
   @override
